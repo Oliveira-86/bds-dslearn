@@ -15,3 +15,5 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
 
 INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES ('Bootcamp HTML CSS', 'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_1280.jpg', 'https://www.thebalancesmb.com/thmb/TE3Z3o3PZZEqVZzVhCGL44Cgqak=/300x200/filters:no_upscale():max_bytes(150000):strip_icc():saturation(0.2):brightness(10):contrast(5)/e-learning-keyboard-505300347-5bcb4bccc9e77c002de3d9d4.jpg');
  
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2021-02-28T03:00:00Z', TIMESTAMP WITH TIME ZONE '2021-03-10T03:00:00Z', 1);
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2022-02-28T03:00:00Z', TIMESTAMP WITH TIME ZONE '2022-03-10T03:00:00Z', 2);
